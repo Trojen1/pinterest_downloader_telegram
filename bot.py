@@ -27,7 +27,7 @@ APP_HASH = "6bb0682b4af56456201c3b9d8b99c94a"
 BOT_TOKEN = "2011095989:AAFNXWUHkhj1DKK6Dh9w8S79lvrjZk0Adrs"
 TMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
-MONGO_DB = os.environ.get("MONGO_DB", None)
+MONGO_DB = "mongodb+srv://TROJ3N:Nethika123@cluster0.uppg6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 bot = TelegramClient('pinterestbot', APP_ID, APP_HASH).start(
     bot_token=BOT_TOKEN)
